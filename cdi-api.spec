@@ -1,10 +1,10 @@
-%_javapackages_macros
+%{?_javapackages_macros:%_javapackages_macros}
 %global namedreltag .NOTHING
 %global namedversion %{version}%{?namedreltag}
 
 Name:             cdi-api
 Version:          1.1
-Release:          4.0%{?dist}
+Release:          4.1%{?dist}
 Summary:          CDI API
 
 License:          ASL 2.0
