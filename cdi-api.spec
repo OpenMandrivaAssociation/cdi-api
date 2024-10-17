@@ -8,7 +8,7 @@ Release:          4.1%{?dist}
 Summary:          CDI API
 
 License:          ASL 2.0
-URL:              http://seamframework.org/Weld
+URL:              https://seamframework.org/Weld
 Source0:          https://github.com/cdi-spec/cdi/archive/%{version}.tar.gz
 
 BuildArch:        noarch
