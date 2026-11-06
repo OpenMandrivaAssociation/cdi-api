@@ -14,6 +14,9 @@ BuildRequires:	java-current-devel
 BuildRequires:	javax.inject
 BuildRequires:	jakarta-el
 BuildRequires:	jboss-interceptors-1.2-api
+# The interceptors POM parents jboss-parent, and that RPM does not
+# require the parent, so Maven cannot read the POM without it.
+BuildRequires:	mvn(org.jboss:jboss-parent:pom::)
 BuildSystem:	maven
 
 %description
